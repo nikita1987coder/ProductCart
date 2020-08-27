@@ -35,6 +35,11 @@ public class ProductServiceTest {
 		Product p3 = productService.getProductById(p1.getId());
 		assertThat(p3.getId()).isEqualTo(p2.getId());
 		
+		
+		
+		
+		
+		
 		assertThat(p3.getBarCodeId()).isEqualTo(p2.getBarCodeId());
 		assertThat(p3.getRate()).isEqualTo(p2.getRate());
 		assertThat(p3.getProductCategory()).isEqualTo(p2.getProductCategory());
